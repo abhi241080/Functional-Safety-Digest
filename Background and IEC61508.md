@@ -1,5 +1,8 @@
-1. Functional Safety Overview
+#Functional Safety Overview
+
 1.1. Definition
+
+
 "Absence of unreasonable risk due to hazards caused by malfunctioning behavior of electrical/electronic systems" – ISO 26262-1:2011; 1.51 Safety = Absence of unreasonable risk Absence of unreasonable risk due to hazards caused by the failure of electronic/electrical (E/E) systems.
 
 Functional safety arose due to the increasing use of E/E systems in control systems. Currently, functional safety is applied across many industries, including avionics, automotive, railway, and medical devices. The most general standard is IEC 61508, which originated in the industrial market. It currently exists as a standard in IEC/ISO basic safety publications, covering "general functional safety" for several industries. ISO 26262 is specifically applicable to the electrical and electronic systems of automotive passenger vehicles. The ISO 26262 standard is a derivation of the IEC 61508 standard.
