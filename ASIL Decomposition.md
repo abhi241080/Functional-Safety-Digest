@@ -153,37 +153,35 @@ Why not the reverse? Why not Processor ASIL A and Safety Element ASIL C—would 
 Because in some cases, the safety element may be a legacy element from a previous design and is being used in this specific project.
 It may be too simple to handle more complex safety functions.
 
-Second Design
-
 # Top Ten ASIL Misconceptions
-10. ASIL deals only with hardware development.
+1. ASIL deals only with hardware development.
 ASIL has implications for hardware, software, and supporting processes.
 
-9. A hardware element can be designed as ASIL X for any system.
+2. A hardware element can be designed as ASIL X for any system.
 A hardware element can be designed to satisfy the ASIL X safety requirements in a given system.
 
-8. ASIL decomposition is a form of hardware redundancy.
+3. ASIL decomposition is a form of hardware redundancy.
 Yes and no: ASIL decomposition implies functional redundancy, but also diversity, independence, and freedom from interference.
 
-7. ASIL decomposition is used to lower HW metrics targets.
+4. ASIL decomposition is used to lower HW metrics targets.
 No! After ASIL decomposition, the same targets for the initial safety goal (before decomposition) apply to the decomposed HW/SW elements.
 
-6. ASIL decomposition is mainly about random faults.
+5. ASIL decomposition is mainly about random faults.
 Correct for IEC 61508, but not for ISO 26262. It is more about addressing systemic issues (e.g., architecture).
 
-5. The ISO 26262 standard requires ASIL decomposition.
+6. The ISO 26262 standard requires ASIL decomposition.
 It is actually not a mandatory step. It can be viewed as an opportunity to assign uniform functions with different safety criticality during SW partitioning to HW elements.
 
-4. Software-level ASIL decomposition is simpler and cheaper than hardware-level decomposition.
+7. Software-level ASIL decomposition is simpler and cheaper than hardware-level decomposition.
 In reality, software-level decomposition is often more difficult and more expensive than hardware-level decomposition due to strict requirements for diversity and independence.
 
-3. ASIL decomposition is the only way to lower the ASIL of an element.
+8. ASIL decomposition is the only way to lower the ASIL of an element.
 In fact, the ASIL of an element can sometimes be directly reduced through informed and careful analysis of the involved technology and architecture. Many people still do not realize this (e.g., classifying the motor in the example as QM).
 
-2. ASIL decomposition is always feasible.
+9. ASIL decomposition is always feasible.
 In reality, using multiple functions with many different ASILs (as in modern microcontrollers) may make achieving ASIL decomposition virtually impossible in some cases.
 
-1. ASIL decomposition is always desirable.
+10. ASIL decomposition is always desirable.
 In reality, there is always a cost-benefit trade-off, and after careful analysis, ASIL decomposition often proves to be unnecessary.
 
 # Conclusion
